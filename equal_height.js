@@ -1,15 +1,11 @@
 (function ($) {
     $.fn.equalHeight = function () {
-        tallest = 0;
+        tallest = -1;
         this.each(function () {
-            thisHeight = $(this).height();
-            if (thisHeight > tallest) tallest = thisHeight;
+        tallest = tallest > $(this).height() ? tallest : $(this).height();
         });
-        
         this.each(function () {
             $(this).height(tallest);
         });
-
-    };
-    
+	};
 })(jQuery);
