@@ -1,4 +1,4 @@
-Equal-height-jQeury-Responsive
+Equal-Height-jQeury-Responsive-Plugin
 ==============================
 
 jQuery Equal Height Plugin Responsive and Lightest
