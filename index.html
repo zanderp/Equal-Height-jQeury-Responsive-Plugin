@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Equal Height jQuery plugin</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="equal_height.js"></script>
+<script>
+$(document).ready(function(){
+$(".column").equalHeight();
+});
+$(window).resize(function() {
+        $('.column').css('height','auto');
+        $('.column').equalHeight();
+});
+</script>
+</head>
+<body>
+<div class="column">
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa asdasd asd asd asd asd</p>
+</div>
+<div class="column">
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+    <p>testare aaaaa</p>
+</div>
+</body>
+</html>

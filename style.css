@@ -1,0 +1,6 @@
+.column {
+    background-color:red;
+    border: 2px solid black;
+    float:left;
+    margin-right:20px;
+}
